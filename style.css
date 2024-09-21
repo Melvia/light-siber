@@ -37,14 +37,12 @@ section::before {
 }
 
 @keyframes animateColor {
-
     0% {
         filter: hue-rotate(0deg);
     }
     100% {
         filter: hue-rotate(360deg);
     }
-
 }
 
 .box {
@@ -56,7 +54,7 @@ section::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #00b3ff;
+    /*border: 1px solid #00b3ff;*/
 }
 
 .box h2 {
@@ -89,7 +87,7 @@ section::before {
     0 0 120px #00b3ff,
     0 0 150px #00b3ff;
     z-index: 10;
-    animation: animatelightBar 10s linear infinite;
+    animation: animatelightBar 5s linear infinite;
 }
 
 @keyframes animatelightBar {
@@ -99,7 +97,6 @@ section::before {
     10%{
         transform: scaleY(1) translateX(0);
     }
-
     90% {
         transform: scaleY(1) translateX(calc(800px - 10px));
     }
@@ -145,8 +142,8 @@ section::before {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background: #fff;
-    animation:  animatetopLayer 20s linear infinite;
+    /*background: #fff;*/
+    animation:  animatetopLayer 10s linear infinite;
 
 }
 
